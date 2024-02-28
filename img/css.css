@@ -133,31 +133,32 @@ p {
     align-items: center;
 }
 .explore-content {
-    width: 50%;
-    padding: 50px;
-    color: rgb(4, 8, 12);
+    width: 60%;
+    padding: 30px;
+    color: rgb(230, 233, 237);
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 .explore-content h1{
-    font-size: 7vmin;
+    font-size: 9vmin;
     margin: 50px;
 }
 .explore-content .line{
     margin-bottom: 50px;
 }
 .explore-content p {
-    color: rgb(8, 15, 20);
+    color: rgb(249, 251, 252);
+    font-size: 3vmin;
 }
 .explore-content .ctn {
     margin-top: 40px;
 }
 .content-col {
-    width: 40%;
+    width: 50%;
 }
 .image-col {
-    width: 40%;
+    width: 80%;
 }
 .tours .image-gallery {
    display: flex;
@@ -166,11 +167,11 @@ p {
    align-items: center;
 }
 .image-gallery img {
-    max-width: 250px;
-    margin: 10px;
+    max-width: 300%;
+    margin: 90px;
 }
 .content-col h1 {
-    font-size: 7vmin;
+    font-size: 8vmin;
     color: black;
 }
 .content-col .line {
