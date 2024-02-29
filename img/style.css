@@ -1,0 +1,227 @@
+/* General styling */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, nav, section, footer {
+    padding: 20px;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  /* Hero section */
+  .hero {
+    text-align: center;
+    background-color: #2f58d4;
+    background-image: url('coach-space.jpg');
+  }
+  
+  .hero h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Services section */
+  .services-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Adjust column size if needed */
+    gap: 30px;
+  }
+  
+  .service {
+    text-align: center;
+    border: 1px solid #1a0303;
+    padding: 20px;
+  }
+  
+  .service img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Contact section */
+  .contact-form {
+    /* Add form styling here */
+  }
+/* General styling */
+body {
+  font-family: sans-serif; /* Choose your preferred font family */
+  margin: 0;
+  padding: 0;
+  background-color: #f3f3f3; /* Add a subtle background color */
+}
+
+header, nav, section, footer {
+  padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-between; /* Space links evenly */
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing */
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Darker text color */
+  font-weight: bold; /* Emphasize navigation links */
+  transition: color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+nav a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Hero section */
+.hero {
+  text-align: center;
+  background-image: url("path/to/hero-image.jpg"); /* Set a background image */
+  background-size: cover;
+  background-position: center;
+  min-height: 400px; /* Ensure minimum height */
+  color: white; /* Light text for contrast */
+}
+
+.hero h2 {
+  font-size: 2.5em; /* Increase heading size */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #007bff;
+  color: white;
+  padding: 12px 30px; /* Adjust padding */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+  background-color: #0062cc; /* Darken background on hover */
+}
+
+/* Services section */
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); /* Adjust column width */
+  gap: 30px; /* Increase spacing */
+}
+
+.service {
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 5px; /* Add rounded corners */
+  padding: 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+}
+
+.service img {
+  width: 100%;
+  height: 250px; /* Adjust image height */
+  object-fit: cover;
+}
+
+/* Contact section */
+.contact-form {
+  /* Add form styling here, using elements like input, textarea, button */
+}
+
+/* Additional styles */
+h3 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+p {
+  line-height: 1.6; /* Enhance readability */
+}
+/*
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}*/
+/* Footer */
+
+.footer{
+    background: var(--color-bg1);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5rem;
+}
+
+.footer__container > div h4{
+    margin-bottom: 1.2rem;
+}
+
+.footer__1 p{
+    margin: 1rem 0 2rem;
+}
+
+.footer ul li{
+    margin-bottom: 0.7rem;
+}
+
+.footer ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    size-adjust: larger;
+}
+
+.footer__copyright{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-bg2);
+    font-size: larger;
+}
+  
