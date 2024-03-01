@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="./css.css">
+</head>
+<body>
+    <!---Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">Agile Yanam</h1>
+        <ul class="nav-link">
+            <nav class='c-navigation'>
+              <ul class='c-navigation__list'>
+                <li class='c-navigation__list-item'><a href='Home.html' title=''>Home</a></li>
+                <li class='c-navigation__list-item'><a href='About.html' title=''>About</a></li>
+                <li class='c-navigation__list-item'><a href='services.html' title=''>Services</a></li>
+                <li class='c-navigation__list-item'><a href='contact.html' title=''>Contact</a></li>
+              </ul>
+            </nav>
+        <img src="menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    
+    <header>
+        <video autoplay loop muted plays-inline class="background-video">
+            <source
+              src="pexels-mikhail-nilov-6962343 (Original).mp4"
+              type="video/mp4" />
+              <div class="header-content">
+                <h2>Explore the colorful world</h2>
+                <div class="line"></div>
+                <h1>With Agile Yanam</h1>
+                <a href="Services.html" class="ctn">More</a>
+            </div>
+          </video>
+        <div class="header-content">
+            <h2>Explore the colorful world</h2>
+            <div class="line"></div>
+            <h1>With Agile Yanam</h1>
+            <a href="Services.html" class="ctn">More</a>
+        </div>
+    </header>
+
+    <!--- About us -->
+    <section class="About">
+        <div class="title">
+            <h1>Services we provide</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+           <!---      <img src="pexels-photo-5325104.jpeg.jpg" alt="">
+              -->  <h4>How we work</h4>
+                <p>At Agile Yanam , we understand that every business journey is unique. That's why we're here to offer personalized guidance, expertise, and support tailored to your specific needs. Whether you're just starting out or looking to take your business to the next level, we're here to help you navigate the digital landscape with confidence.
+                    Ready to
+                    
+                    bring your digital dreams to life ? Get in touch with us today, and let's embark on this exciting journey together . 
+               </p>
+                <a href="#" class="Ctn">Learn More</a>
+            </div>
+        <div class="col">
+                <img src="pexels-photo-3184418.jpeg.jpg" alt="">
+                <h4>How we work</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse vero ipsam, saepe nobis autem distinctio, molestiae sed eum repellat, expedita sit omnis atque eaque. Corporis nulla debitis nemo hic sapiente?</p>
+                <a href="#" class="Ctn">Learn More</a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+          <h1>About Us</h1>
+          <p>Welcome to Agile Yanam , where we're passionate about helping businesses navigate the ever-changing digital landscape with confidence and creativity. Our journey began with a simple idea: to empower companies of all sizes to turn their digital dreams into reality. What sets us apart is not just our knack for crafting solutions, but our commitment to building meaningful relationships and delivering experiences that truly resonate.
+
+            At Agile Yanam , we don't just see technology; we envision a future where businesses flourish through a blend of cutting-edge technical expertise and holistic support. Our aim is to go beyond the ordinary, adding exceptional value to every interaction by fostering strategic partnerships that drive growth and innovation.</p>
+          <a href="#" class="ctn">Learn more</a>
+        </div>
+    </section>
+    <section class="tours">
+        <div class="row">
+        <div class="col content-col">
+            <h1> PROJECTS AND WORK</h1>
+            <div class="line"></div>
+            <p></p>
+            <a href="projects.html" class="ctn">More</a>
+        </div>
+        <div class="col image-col ">
+            <div class="image-gallery">
+            <img src="pexels-matthias-zomer-339620.jpg" alt="">
+            <!---<img src="pexels-lukas-928199.jpg" alt="">
+            <img src="pexels-cottonbro-studio-4888440.jpg" alt="">
+            <img src="pexels-photo-814544.jpeg.jpg" alt="">--->
+        </div>
+        </div>
+    </div>
+    </section>
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlink = document.querySelector('.nav-link')
+
+        menuBtn.addEventListener('click',()=>{
+            navlink.classList.toggle('mobile-menu')
+        })
+    </script>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__1">
+                <a href="Home.html" class="footer__logo">
+                    <h4></h4>
+                </a>
+                <p>
+                    Stay Tuned For Regular Updates !!
+                </p>
+            </div>
+      
+            <div class="footer__2">
+                <h4>Links</h4>
+                <ul class="permalink">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contacts.html">Contact</a></li>
+                </ul>
+            </div>
+      
+         <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="Home.html">Privacy Policy</a></li>
+                    <li><a href="Home.html">Terms and Conditions</a></li>
+                    <li><a href="Home.html">Refund Policy</a></li>
+                </ul>
+            </div> 
+        
+            <div class="footer__4">
+                <h4>Contact us</h4>
+                <div>
+                    <p>AgileYanam@gmail.com</p>
+                </div>
+      
+                <ul class="footer__socials">
+                    <li><a href="https://github.com/utkarshcse2026"><i class="fa-brands fa-github"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/utkarshcse26/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    <li><a href="https://twitter.com/utkarsh12236"><i class="fa-brands fa-twitter"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <small>Copyright &copy; 2024 <br>
+               Built with ♡ by AgileYanam</small>
+        </div>
+      </footer>
+      
+      <!-- SCRIPT JS START AND LINK -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="script.js"></script>
+      
+      
+      <script>
+        var swiper = new Swiper(".mySwiper",{
+            slidesPerView: 1,
+            spaceBetween: 30,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+            },
+            //when Window is >= 600px
+            breakpoints: {
+                600: {
+                    slidesPerView: 2,
+                }
+            }
+        });
+      </script>
+</body>
+</html>
