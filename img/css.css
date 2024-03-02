@@ -46,9 +46,11 @@ header {
     border-radius: 5px;
 }
 .header-content h1{
-    font-size: 7vmin;
+    font-size: 10vmin;
     margin-top: 50px;
     margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 180px;
 }
 .ctn {
     padding: 8px 15px;
