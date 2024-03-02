@@ -10,7 +10,7 @@ ul {
     list-style: none;
 }
 .active {
-    color: aliceblue;
+    color: rgb(99, 150, 195);
     text-decoration: underline;
     font-weight: bold;
 }
