@@ -19,23 +19,6 @@ overflow-x: hidden;
 }
 
 /* Navbar */
-.navbar{
-position: absolute;
-top: 0;
-left: 0;
-display: flex;
-width: 100%;
-justify-content: space-between;
-padding: 10px;
-color: rgb(244, 247, 249);
-}
-.nav-link{
-    display: flow-root;
-    align-items: left;
-}
-.nav-link li {
-    margin: 0 30px;
-}
 
 header {
     width: 100vw;
