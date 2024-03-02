@@ -28,20 +28,20 @@ body {
   background-repeat: no-repeat;
 }
 
-.logo {
-  width: 40px;
-}
-
 .nav-item {
-  position: relative;
+  position: static;
   color: #0f0a0a;
-  font-size: 1rem;
+  align-items: center;
+  font-size: 1.1rem;
   font-weight: 500;
-  line-height: 25px;
-  letter-spacing: -0.13px;
+  line-height: 100px;
+  letter-spacing: -0.20px;
   text-decoration: none;
-  margin-left: 2.5rem;
+  margin-left: 10rem;
   transition: all 0.5s ease;
+  margin-right: 30px;
+  right: 10%;
+  justify-items: flex-end;
 }
 
 .nav-item:hover {
