@@ -28,15 +28,21 @@ width: 100%;
 justify-content: space-between;
 padding: 10px;
 color: black;
+background-color: aqua;
+
 
 }
 .nav-link{
     display: flow-root;
     align-items: left;
-    color: white;
+    background-color: transparent;
+
+
 }
 .nav-link li {
     margin: 0 30px;
+    font-weight: bolder;
+
 }
 
 header {
@@ -268,6 +274,7 @@ p {
     position: absolute;
     bottom: -0.4rem;
     left: 10;
+    color: aqua;
   }
   .footer{
     background: var(--color-bg1);
