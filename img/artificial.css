@@ -28,7 +28,7 @@ main {
 }
 
 .photo-cover {
-  background: #34495e url(gradient-ai-cloud-with-broken-pieces.jpg) no-repeat center center/cover fixed;
+  background: #34495e url('WhatsApp Image 2024-03-05 at 01.34.18_89742cc6.jpg') no-repeat center center/cover fixed;
   height: 100%;
   position: relative;
 }

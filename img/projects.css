@@ -110,7 +110,7 @@ nav a:hover {
 /* Hero section */
 .hero {
   text-align: center;
-  background-image: url("path/to/hero-image.jpg"); /* Set a background image */
+  background-image: url("pexels-ali-pazani-2777898.jpg"); /* Set a background image */
   background-size: cover;
   background-position: center;
   min-height: 400px; /* Ensure minimum height */
@@ -181,5 +181,139 @@ footer {
 }*/
 /* Footer */
 
+.footer{
+  background: var(--color-bg1);
+  padding-top: 5rem;
+  font-size: 0.9rem;
+}
 
+.footer__container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5rem;
+}
+
+.footer__container > div h4{
+  margin-bottom: 1.2rem;
+}
+
+.footer__1 p{
+  margin: 1rem 0 2rem;
+}
+
+.footer ul li{
+  margin-bottom: 0.7rem;
+}
+
+.footer ul li a:hover{
+  text-decoration: underline;
+}
+
+.footer__socials{
+  display: flex;
+  gap: 1rem;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  size-adjust: larger;
+}
+
+.footer__copyright{
+  text-align: center;
+  margin-top: 4rem;
+  padding: 1.2rem 0;
+  border-top: 1px solid var(--color-bg2);
+  font-size: larger;
+}
+/* ------ */
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1100px) {
+  .beer {
+    width: 200px;
+  }
+
+  #content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  #intro {
+    padding: 30px;
+  }
+
+  .beer {
+    width: 150px;
+  }
+
+  .info {
+    gap: 20px;
+    padding: 30px 30px;
+  }
+
+  .info h1 {
+    font-size: 2.5rem;
+  }
+
+  .info p {
+    font-size: 1rem;
+  }
+
+  #content {
+    gap: 30px;
+    padding: 60px 20px;
+  }
+
+  .card {
+    width: 250px;
+  }
+
+  .modal-content {
+    width: 80%;
+  }
+
+  footer {
+    padding: 20px 80px 60px;
+  }
+
+  footer > p {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  #intro {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "split-beer"
+      "info";
+  }
+
+  .info {
+    grid-area: info;
+  }
+
+  .split-beer {
+    grid-area: split-beer;
+    margin: 20px auto;
+  }
+
+  .beer {
+    width: 100px;
+  }
+
+  #content {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 40px 40px;
+  }
+
+  footer {
+    padding: 20px 30px 60px;
+  }
+
+  footer > p {
+    font-size: 1rem;
+  }
+}
   
