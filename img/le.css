@@ -23,15 +23,18 @@ body {
   justify-content: center;
   align-items: center;
   background: #fff;
-  background-image: radial-gradient(at 9.2% 73.7%, #ffddc9 0px, transparent 50%),
-    radial-gradient(at 92.3% 7.6%, #fff9cf 0px, transparent 50%);
+  background-image: radial-gradient(at 9.2% 73.7%, #faf9f8 0px, transparent 50%),
+  radial-gradient(at 92.3% 7.6%, #f9f9f9 0px, transparent 50%);
   background-repeat: no-repeat;
+
 }
 
+
+
 .nav-item {
-  position: static;
+  position: relative;
   color: #0f0a0a;
-  align-items: center;
+  align-items: right;
   font-size: 1.1rem;
   font-weight: 500;
   line-height: 100px;
@@ -41,7 +44,7 @@ body {
   transition: all 0.5s ease;
   margin-right: 30px;
   right: 10%;
-  justify-items: flex-end;
+  justify-items: flex;
 }
 
 .nav-item:hover {
@@ -111,8 +114,8 @@ body {
 
 .about {
   max-width: 100%;
-  width: 250px;
-  border-radius: 20px;
+  width: 150%;
+  border-radius: 30px;
   margin-left: 15px;
   border: 2px solid rgb(237, 241, 244);
 }
@@ -560,4 +563,61 @@ footer > p {
   footer > p {
     font-size: 1rem;
   }
+}
+header, nav, section, footer {
+  padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  text-align : left ; 
+  color: white;
+}
+header, nav, section, footer {
+  padding: 20px;
+}
+
+/* Navigation */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Use flexbox for horizontal layout */
+  justify-content: space-between; /* Space links evenly */
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px; /* Adjust spacing */
+}
+nav h1 {
+justify-content: left;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333; /* Darker text color */
+  font-weight: bold; /* Emphasize navigation links */
+  transition: color 0.3s ease-in-out; /* Smooth hover effect */
+}
+
+nav a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+/* Contact section */
+.contact-form {
+  /* Add form styling here, using elements like input, textarea, button */
 }
